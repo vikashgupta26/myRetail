@@ -2,15 +2,17 @@
 myRetail is a company and this microservice is by its merchants to do crud operation for product(s).
 
 This needs a mysql db and mongodb instance
-My SQL details can be updated in the property file as required
-spring.datasource.url=jdbc:mysql://{host}:{port}/{database_name}
-spring.datasource.username={username}
-spring.datasource.password={password}
-#MONGO DB details can be updated as needed
-spring.data.mongodb.uri={mongoDBURI}
-spring.data.mongodb.database={mongo_database}
-spring.data.mongodb.username={mongo_user}
-spring.data.mongodb.password={mongo_password}
+My SQL details can be updated in the property file as required 
+spring.datasource.url=jdbc:mysql://{host}:{port}/{database_name} 
+spring.datasource.username={username} 
+spring.datasource.password={password} 
+
+
+#MONGO DB details can be updated as needed 
+spring.data.mongodb.uri={mongoDBURI} 
+spring.data.mongodb.database={mongo_database} 
+spring.data.mongodb.username={mongo_user} 
+spring.data.mongodb.password={mongo_password} 
 
 ==============================
 
