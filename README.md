@@ -51,7 +51,8 @@ PUT http://localhost:8009/product/update to update a product
     "currCode": "USD"	
 }
 
-POST http://localhost:8009/product/create to create a product
+POST http://localhost:8009/product/create to create a product 
+
 {
     "id": 16483500,
     "price": 301.32,
@@ -61,7 +62,9 @@ POST http://localhost:8009/product/create to create a product
 		"productDescription":"This is a sample product description 00"
 	}
 }
----
+
+-----------------------------------
+
 NOTE:- 
 Only admin user has access to actuator
 For POC there is a hard delete of product.
