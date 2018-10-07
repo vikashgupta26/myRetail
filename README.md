@@ -12,62 +12,9 @@ spring.data.mongodb.database={mongo_database}
 spring.data.mongodb.username={mongo_user}
 spring.data.mongodb.password={mongo_password}
 ==============================
-RUN Below queries in you particular Databse in MySQL
-DROP TABLE IF EXISTS `product`;
-CREATE TABLE `product` (
-  `id` BIGINT(11) NOT NULL ,
-  `price` float(11) NOT NULL,
-  `curr_code` varchar(255) NOT NULL DEFAULT 'USD',
-  PRIMARY KEY (`id`)
-);
-LOCK TABLES `product` WRITE;
-/*!40000 ALTER TABLE `role` DISABLE KEYS */;
-INSERT INTO `product` (`id`, `price`) values (13860428,13.49);
-INSERT INTO `product` (`id`, `price`) values (16483589,11.32);
-INSERT INTO `product` (`id`, `price`) values (16696652,10.82);
-INSERT INTO `product` (`id`, `price`) values (16752456,21.72);
-INSERT INTO `product` (`id`, `price`) values (15643793,31.52);
-INSERT INTO `product` (`id`, `price`) values (15117729,13.46);
-/*!40000 ALTER TABLE `role` ENABLE KEYS */;
-UNLOCK TABLES;
+RUN Below queries from file dump.sql
 ================================
-In Your selected database in Mongo RUN below 
-db.getCollection("productdetail").insert({
-    _id: "13860428" ,
-    "_class": "com.vik.demo.myretail.model.ProductDetails",
-    "productName": "This is a first product",
-    "productDescription": "This is a first sample product description"
-});
-db.getCollection("productdetail").insert({
-    _id: "16483589" ,
-    "_class": "com.vik.demo.myretail.model.ProductDetails",
-    "productName": "This is a second product",
-    "productDescription": "This is a second sample product description"
-});
-db.getCollection("productdetail").insert({
-    _id: "16696652" ,
-    "_class": "com.vik.demo.myretail.model.ProductDetails",
-    "productName": "This is a third product",
-    "productDescription": "This is a third sample product description"
-});
-db.getCollection("productdetail").insert({
-    _id: "16752456" ,
-    "_class": "com.vik.demo.myretail.model.ProductDetails",
-    "productName": "This is a fourth product",
-    "productDescription": "This is a fourth sample product description"
-});
-db.getCollection("productdetail").insert({
-    _id: "15643793" ,
-    "_class": "com.vik.demo.myretail.model.ProductDetails",
-    "productName": "This is a fifth product",
-    "productDescription": "This is a fifth sample product description"
-});
-db.getCollection("productdetail").insert({
-    _id: "15117729" ,
-    "_class": "com.vik.demo.myretail.model.ProductDetails",
-    "productName": "This is a sixth product",
-    "productDescription": "This is a sixth sample product description"
-});
+In Your selected database in Mongo RUN from dump.json
 --------------------------------------------------------
  Go the project folder and run
  
