@@ -1,0 +1,36 @@
+db.getCollection("productdetail").insert({
+    _id: "13860428" ,
+    "_class": "com.vik.demo.myretail.model.ProductDetails",
+    "productName": "This is a first product",
+    "productDescription": "This is a first sample product description"
+});
+db.getCollection("productdetail").insert({
+    _id: "16483589" ,
+    "_class": "com.vik.demo.myretail.model.ProductDetails",
+    "productName": "This is a second product",
+    "productDescription": "This is a second sample product description"
+});
+db.getCollection("productdetail").insert({
+    _id: "16696652" ,
+    "_class": "com.vik.demo.myretail.model.ProductDetails",
+    "productName": "This is a third product",
+    "productDescription": "This is a third sample product description"
+});
+db.getCollection("productdetail").insert({
+    _id: "16752456" ,
+    "_class": "com.vik.demo.myretail.model.ProductDetails",
+    "productName": "This is a fourth product",
+    "productDescription": "This is a fourth sample product description"
+});
+db.getCollection("productdetail").insert({
+    _id: "15643793" ,
+    "_class": "com.vik.demo.myretail.model.ProductDetails",
+    "productName": "This is a fifth product",
+    "productDescription": "This is a fifth sample product description"
+});
+db.getCollection("productdetail").insert({
+    _id: "15117729" ,
+    "_class": "com.vik.demo.myretail.model.ProductDetails",
+    "productName": "This is a sixth product",
+    "productDescription": "This is a sixth sample product description"
+});
