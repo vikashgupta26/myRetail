@@ -36,7 +36,10 @@ password:- merchant2abc
 OR
 user:- merchant3
 password:- merchant3abc
+
+---------------------------------
 URL's
+
 GET http://localhost:8009/product/{id} to get a product
 
 DELETE http://localhost:8009/product/{id} to delete a product
