@@ -11,10 +11,14 @@ spring.data.mongodb.uri={mongoDBURI}
 spring.data.mongodb.database={mongo_database}
 spring.data.mongodb.username={mongo_user}
 spring.data.mongodb.password={mongo_password}
+
 ==============================
+
 RUN Below queries from file dump.sql
+
 ================================
 In Your selected database in Mongo RUN from dump.json
+
 --------------------------------------------------------
  Go the project folder and run
  
@@ -34,13 +38,16 @@ user:- merchant3
 password:- merchant3abc
 URL's
 GET http://localhost:8009/product/{id} to get a product
+
 DELETE http://localhost:8009/product/{id} to delete a product
+
 PUT http://localhost:8009/product/update to update a product
 {
     "id": 16483500,
     "price": 301.32,
     "currCode": "USD"	
 }
+
 POST http://localhost:8009/product/create to create a product
 {
     "id": 16483500,
