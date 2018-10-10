@@ -76,4 +76,3 @@ For production it will use oauth2 service to authenticate merchant/mobile app.
 For production there will be one API gateway service where this service will be registered and via which this service gets called.
 For production this service will be registered in a EUREKA SERVER and this will be a eureka client.
 
-Test cases are missing and will be added.
