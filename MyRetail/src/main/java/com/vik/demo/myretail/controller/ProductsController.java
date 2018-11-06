@@ -48,7 +48,7 @@ public class ProductsController {
 		return new ResponseEntity<ProductVO>(product, HttpStatus.OK);
 	}
 
-	@PostMapping(value = "/create")
+	@PostMapping
 	public ResponseEntity<?> addProduct(@RequestBody ProductVO productVO) {
 		productService.addProduct(productVO);
 		HttpHeaders headers = new HttpHeaders();
@@ -60,7 +60,7 @@ public class ProductsController {
 		return new ResponseEntity<Void>(headers, HttpStatus.CREATED);
 	}
 
-	@PutMapping(value = "/update")
+	@PutMapping
 	public ResponseEntity<?> updateUser(@RequestBody ProductVO productVO) {
 		try {
 			productService.updateProduct(productVO);
