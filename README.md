@@ -46,14 +46,14 @@ GET http://localhost:8009/product/{id} to get a product
 
 DELETE http://localhost:8009/product/{id} to delete a product
 
-PUT http://localhost:8009/product/update to update a product
+PUT http://localhost:8009/product to update a product
 {
     "id": 16483500,
     "price": 301.32,
     "currCode": "USD"	
 }
 
-POST http://localhost:8009/product/create to create a product 
+POST http://localhost:8009/product to create a product 
 
 {
     "id": 16483500,
