@@ -20,3 +20,4 @@ INSERT INTO `product` (`id`, `price`) values (15117729,13.46);
 
 /*!40000 ALTER TABLE `role` ENABLE KEYS */;
 UNLOCK TABLES;
+
